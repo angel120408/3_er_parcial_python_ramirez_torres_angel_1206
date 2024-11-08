@@ -1,0 +1,24 @@
+print("CODIGO #1")
+print(" ")#espacio entre lineas 
+print("Ramirez Torres Angel Manuel De 3°W")#Nos muestra el nombre, grado y grupo del alumno
+print(" ")#espacio entre lineas 
+print("Numero de control: 1206")#Nos muestra el numero de control del alumndo 
+print(" ")#espacio entre lineas 
+print("-INSRTUCCIONES-")#Imprime las instrucciones 
+print(" ")#espacio entre lineas 
+print("Comprueba si una edad almacenada en una variable es mayor de edad, es decir, que su valor que sea")
+print("mayor de 18. Si es así, imprime el texto Eres mayor de edad. En caso contrario, imprime el texto")
+print("NO eres mayor de edad.")
+#Fin de las instrucciones 
+print(" ")#espacio entre lineas 
+
+#Solicita al usuario ingresar su edad 
+edad = int(input("Introduce tu edad: "))
+
+print(" ")#espacio entre lineas
+
+#Pone una condicion para saber si es o no mayor de edad 
+if edad > 18:
+    print("Eres mayor de edad")  #Imprime este mensaje si es mayor 
+else:
+    print("NO eres mayor de edad")  #Imprime este mensaje si es menor 
